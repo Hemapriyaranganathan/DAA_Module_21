@@ -6,7 +6,7 @@ To write a python program to find minimum steps to reach to specific cell in min
 
 ## Algorithm
 1. Use Breadth-First Search (BFS) starting from the knight’s position.
-2. 2. Enqueue the starting position with distance 0 and mark it as visited.
+2. Enqueue the starting position with distance 0 and mark it as visited.
 3. At each step, dequeue a cell and check if it is the target position.
 4. If not, move the knight in all 8 possible moves and enqueue valid, unvisited cells with dist + 1.
 5. Repeat until the target is reached, and return the number of steps (distance).
